@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    white-space : nowrap;
+}
+
+
+/* <div class="train" style="width: 120px;  margin-left: 220px;">Train</div>
+                <div class="inference" style="width: 120px;  margin-left: 70px;">Inference</div>
+                <div class="dashboard" style="width: 120px;  margin-left: 70px;">Dashboard</div>
+                <div class="systemboard" style="width: 120px;  margin-left: 70px;">Systemboard</div> */
+                
+
+.train:hover {
+
+    color: #FF9900;
+}
+.inference {
+    color: #ffffff;
+}
+.inference:hover {
+    color: #FF9900;
+}
+.dashboard{
+
+    color: #ffffff;
+}
+.dashboard:hover {
+
+    color: #FF9900;
+}
+.systemboard:hover {
+    
+    color: #FF9900;
+}
+.top_text {
+    color: #FF9900;
+    cursor: pointer;
+}
+.top_text:hover {
+    color: blue;
+    cursor: pointer;
+}
+.modelbox {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.modelbox:hover {
+    background-color: rgb(232, 243, 252);
+
+}
